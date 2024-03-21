@@ -1,11 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    
 }
 
+
+ /*First block of content styling info*/
+ 
 .container-first {
-    background: #7a899c;
+    background: #fdcbd7;
     display: flex;
     flex-direction: column;
 }
@@ -20,57 +22,65 @@ body{
 }
 
 .main-content {
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px 100px 50px 100px;
 }
-    
 
 .headerlinks {
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 .header img {
-    width: 50px;
+    width: 60px;
     padding: 12px;
 }
 
 .rightcontent img{
-    width: 350px;
+    width: 500px;
+    border-radius: 12px;
 }
 
 .rightcontent {
     margin-left: 10px;
 }
 
-.left-content {
+.leftcontent {
+    display: flex;
+    flex-direction: column;
     margin-right: 10px;
+    width: 500px; 
 }
 
 .headcontent {
-    font-size: 48px;
-    font-weight: bold;
-    
+    font-size: 40px;
+    font-weight: bold;    
 }
 
-.text {
+.main-content .leftcontent .text {
     font-size: 18px;
+    margin: 10px 0px 10px 0px;
 }
 
 button {
     padding: 4px 12px;
-    border-radius: 8px;;
+    border-radius: 8px;
+    width: 150px;    
 }
 
 .love {
     font-size: 12px;
-    background-color: white;
-    border: 1px solid #eee;
+    font-weight: bold;
+    background-color: #303030;
+    color: white;
+    border: 1px solid #202020;
+    margin: 16px 0px 16px 0px;
 }
 
 ul, li {
    list-style: none; 
    display: inline;
-   margin-right: 16px;
+   margin-right: 20px;
    padding: 0;
-   
+   font-weight: bold;
 }
