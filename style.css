@@ -27,7 +27,7 @@ body{
 .main-content {
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px;
 }
 
 .headerlinks {
@@ -57,22 +57,21 @@ body{
 
 .main-content .leftcontent .text {
     font-size: 18px;
-    margin: 10px 0px 10px 0px;
-}
-
-button {
-    padding: 4px 12px;
-    border-radius: 8px;
-    width: 150px;    
+    margin: 10px 0px;
 }
 
 .love {
+    display: flex;
+    justify-content: center;
+    padding: 4px 12px;
+    border-radius: 8px;
+    width: 150px;
     font-size: 12px;
     font-weight: bold;
     background-color: #303030;
     color: white;
     border: 1px solid #202020;
-    margin: 16px 0px 16px 0px;
+    margin: 16px 0px;        
 }
 
 ul, li {
@@ -127,7 +126,7 @@ ul, li {
     justify-content: center;
     font-style: italic;
     font-size: 50px;
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px;
 }
 
 .container-third p {
@@ -145,10 +144,11 @@ ul, li {
 .innercontainer {
     display: flex;
     background: #fdcbd7;
-    margin: 50px 400px 50px 400px;
+    margin: 100px 400px;
     justify-content: space-around;
-    padding: 25px 10px 25px 10px;
-    border-radius: 10px;
+    align-items: center;
+    padding: 25px 10px;
+    border-radius: 10px;    
 }
 
 .content{
@@ -164,4 +164,28 @@ ul, li {
 
 .content .body{
     font-size: 16px;
+}
+
+.heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    border: 1px solid #202020;
+    border-radius: 8px;
+    width: 100px;
+    padding: 3px 0px;
+}
+
+/*Footer block of content styling info*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background: #fdcbd7;
+    color:#303030;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
 }
