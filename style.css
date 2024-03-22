@@ -121,12 +121,13 @@ ul, li {
 
 .container-third {
     display: flex;
-    background: rgb(199, 199, 199);
+    background: #303030;
     text-align: center;
     justify-content: center;
     font-style: italic;
     font-size: 50px;
     padding: 40px 0px;
+    color: white;
 }
 
 .container-third p {
